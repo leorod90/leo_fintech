@@ -5,14 +5,14 @@ import { useHeaderHeight } from '@react-navigation/elements';
 import { defaultStyles, myStyles } from '@/constants/Styles';
 import Colors from '@/constants/Colors';
 import useFetch, { CryptoHistory } from '@/hooks/useFetch';
-import CustomChart from '@/components/CustomChart/CustomChart';
+import CustomChart, { formatTimestamp, skipElements } from '@/components/CustomChart/CustomChart';
 import fakeData from '../../../../../api/crypto-history.json'
 
 const CATEGORIES = [
   'Overview',
-  'News',
-  'Orders',
-  'Transactions'
+  '7-day',
+  '3-month',
+  '1-year'
 ]
 
 export default function details() {
@@ -21,15 +21,58 @@ export default function details() {
   const params = useLocalSearchParams();
   const { id, title, symbol } = params;
   const headerHeight = useHeaderHeight();
-  // const { data, loading, error } = useFetch<CryptoHistory>(`https://api.coingecko.com/api/v3/coins/${id}/market_chart?vs_currency=usd&days=7&interval=daily`);
+  // const { data, loading, error } = useFetch<CryptoHistory>(`https://api.coingecko.com/api/v3/coins/${id}/market_chart?vs_currency=usd&days=210&interval=daily`);
   let data = fakeData
+  let loading = false
   const [activeTab, setActiveTab] = useState(CATEGORIES[0])
+  const [initialData, setInitialData] = useState<any>([])
+  const [formattedData, setFormattedData] = useState<any>([])
+  const [color, setColor] = useState<any>('blue')
 
   useEffect(() => {
     navigation.setOptions({ title });
   }, [navigation]);
 
-  // if (loading) { }
+  useEffect(() => {
+    if (!loading) {
+      let DATA = data?.prices.map(item => {
+        return {
+          date: formatTimestamp(item[0]),
+          price: item[1]
+        };
+      });
+
+      const d = skipElements(DATA, 1);
+      setInitialData(DATA)
+      setFormattedData(d)
+    }
+  }, [loading]) // add loading
+
+  const setActiveTabHandler = (item: string) => {
+    let newArray = []
+
+    switch (item) {
+      case "3-month":
+        setColor('red')
+        newArray = skipElements(initialData, 7);
+        break;
+      case "1-year":
+        setColor('green')
+        newArray = skipElements(initialData, 29);
+        break;
+      default:
+        setColor('blue')
+        newArray = skipElements(initialData, 1);
+        break;
+    }
+
+    setFormattedData(newArray)
+    setActiveTab(item);
+  }
+
+  if (loading) {
+    return <></>
+  }
 
   const _listHeader = () => (
     <View
@@ -66,7 +109,7 @@ export default function details() {
                 marginRight: 2,
                 backgroundColor: activeTab === item ? 'white' : '#F2F2F2'
               }}
-              onPress={() => setActiveTab(item)}>
+              onPress={() => setActiveTabHandler(item)}>
               <Text
                 style={{
                   ...myStyles.secondaryText,
@@ -79,7 +122,9 @@ export default function details() {
       )}
       renderItem={({ item }) => (
         <View style={{ flex: 1, marginTop: 20 }}>
-          <CustomChart data={data} />
+          {activeTab === 'Overview' ?
+            <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maiores labore ad similique quis dolor quae, ipsam tempora nobis officia nihil vel repellat non, sequi temporibus commodi debitis, consequatur magnam?</Text>
+            : <CustomChart data={formattedData} color={color} />}
         </View>
       )}
     />

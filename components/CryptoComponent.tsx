@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Image as RNImage } from 'react-native'
+import { StyleSheet, Text, View, Image as RNImage, Pressable } from 'react-native'
 import React from 'react'
 import { CryptoData } from '@/hooks/useFetch';
 import { Image } from 'expo-image';
@@ -51,7 +51,7 @@ export default function CryptoComponent({ item }: { item: CryptoData }) {
         // /* 1. Navigate to the details route with query params */
         params: { title: name, symbol },
       }}>
-      <View style={styles.container}>
+      <Pressable style={styles.container}>
         <Image
           style={styles.image}
           // source={{ uri: image }}
@@ -71,7 +71,7 @@ export default function CryptoComponent({ item }: { item: CryptoData }) {
             <Text style={[myStyles.secondaryText, { color }]}>{price_change_24h.toFixed(2)}</Text>
           </View>
         </View>
-      </View>
+      </Pressable>
     </Link>
   )
 }
