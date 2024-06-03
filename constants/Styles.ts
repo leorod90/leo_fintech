@@ -18,6 +18,10 @@ export const myStyles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
   },
+  header4: {
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
   bodyText: {
     fontSize: 16,
     color: '#666'
@@ -33,6 +37,12 @@ export const myStyles = StyleSheet.create({
 });
 
 export const defaultStyles = StyleSheet.create({
+  defaultPadding: {
+    padding: 16
+  },
+  horizontalPadding: {
+    paddingHorizontal: 16
+  },
   container: {
     flex: 1,
     backgroundColor: Colors.background,

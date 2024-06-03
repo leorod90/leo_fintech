@@ -5,7 +5,7 @@ import { Link, router } from 'expo-router'
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 export default function login() {
-  const insets = useSafeAreaInsets();
+  const insets = usebalanceStoreInsets();
 
   const [areaCode, setAreaCode] = useState('')
   const [phoneNumber, setPhoneNumber] = useState('')

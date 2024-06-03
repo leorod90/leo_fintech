@@ -6,6 +6,7 @@ import DropDown from '@/components/DropDown';
 import { useBalanceStore } from '@/store/balanceStore';
 import TransactionItem from '@/components/TransactionItem';
 import WidgetList from '@/components/SortableList/WidgetList';
+import { useHeaderHeight } from '@react-navigation/elements';
 
 const HeaderComponent = () => (
   <View style={styles.headerContain}>
@@ -14,9 +15,9 @@ const HeaderComponent = () => (
 )
 
 export default function crypto() {
+  const headerHeight = useHeaderHeight();
   const { balance, runTransactions, transactions, clearTransaction } = useBalanceStore();
   const addMoneyHandler = () => {
-
     runTransactions({
       id: Math.random().toString(36).substring(2, 11),
       amount: Math.floor((Math.random() * 1000) * (Math.random() > 0.5 ? 1 : -1)),
@@ -26,7 +27,10 @@ export default function crypto() {
   }
 
   return (
-    <ScrollView style={defaultStyles.container}>
+    <ScrollView style={defaultStyles.container}
+      contentContainerStyle={{
+        paddingTop: headerHeight
+      }}>
       <View style={styles.account}>
         <Text style={[myStyles.bodyText, styles.currency]}>$</Text>
         <Text style={[myStyles.heroTxt, styles.balance]}>{balance()}</Text>

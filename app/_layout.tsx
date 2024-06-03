@@ -1,3 +1,4 @@
+import CustomBackBtn from '@/components/CustomBackBtn';
 import Colors from '@/constants/Colors';
 import { Ionicons } from '@expo/vector-icons';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
@@ -5,7 +6,7 @@ import { useFonts } from 'expo-font';
 import { Link, Stack, useRouter, useSegments } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
-import { Pressable, Text, TouchableOpacity } from 'react-native';
+import { Pressable, Text } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import 'react-native-reanimated';
 
@@ -59,22 +60,14 @@ const InitialLayout = () => {
         headerBackTitle: '',
         headerShadowVisible: false,
         headerStyle: { backgroundColor: Colors.background },
-        headerLeft: () => (
-          <TouchableOpacity onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={28} color={Colors.dark} />
-          </TouchableOpacity>
-        )
+        headerLeft: () => <CustomBackBtn router={router} />
       }} />
       <Stack.Screen name="login" options={{
         title: '',
         headerBackTitle: '',
         headerShadowVisible: false,
         headerStyle: { backgroundColor: Colors.background },
-        headerLeft: () => (
-          <TouchableOpacity onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={28} color={Colors.dark} />
-          </TouchableOpacity>
-        ),
+        headerLeft: () => <CustomBackBtn router={router} />,
         headerRight: () => (
           <Link href={'/help'} asChild>
             <Pressable style={({ pressed }) => [
@@ -91,11 +84,7 @@ const InitialLayout = () => {
         headerBackTitle: '',
         headerShadowVisible: false,
         headerStyle: { backgroundColor: Colors.background },
-        headerLeft: () => (
-          <TouchableOpacity onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={28} color={Colors.dark} />
-          </TouchableOpacity>
-        ),
+        headerLeft: () => <CustomBackBtn router={router} />
       }} />
       <Stack.Screen name="(authenticated)/(tabs)" options={{ headerShown: false }} />
 

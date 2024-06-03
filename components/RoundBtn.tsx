@@ -4,7 +4,7 @@ import { Ionicons } from '@expo/vector-icons';
 import Colors from '@/constants/Colors';
 
 interface Props {
-  title: string;
+  title?: string;
   icon: typeof Ionicons.defaultProps;
   onPress: () => void
 }

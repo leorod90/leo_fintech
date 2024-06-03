@@ -88,10 +88,10 @@ const Tile = ({ id }: TileProps) => {
                   fontSize: 18,
                   paddingVertical: 10,
                 }}>
-                {transactions[transactions.length - 1].amount}€
+                {transactions[0].amount}€
               </Text>
               <Text style={{ color: Colors.gray, fontWeight: 'bold', fontSize: 16 }}>
-                {transactions[transactions.length - 1].title}
+                {transactions[0].title}
               </Text>
             </>
           )}
