@@ -1,5 +1,6 @@
 import CustomBackBtn from '@/components/CustomBackBtn';
 import Colors from '@/constants/Colors';
+import UserInactivityProvider from '@/context/UserInactivity';
 import { Ionicons } from '@expo/vector-icons';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { useFonts } from 'expo-font';
@@ -87,16 +88,18 @@ const InitialLayout = () => {
         headerLeft: () => <CustomBackBtn router={router} />
       }} />
       <Stack.Screen name="(authenticated)/(tabs)" options={{ headerShown: false }} />
-
+      <Stack.Screen name="(authenticated)/(modals)/locked" options={{ headerShown: false, animation: 'none' }} />
     </Stack>
   );
 }
 
 const RootLayoutNav = () => {
   return (
-    <GestureHandlerRootView>
-      <InitialLayout />
-    </GestureHandlerRootView>
+    <UserInactivityProvider>
+      <GestureHandlerRootView>
+        <InitialLayout />
+      </GestureHandlerRootView>
+    </UserInactivityProvider>
   );
 }
 
