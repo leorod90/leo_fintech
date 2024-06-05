@@ -20,7 +20,6 @@ export default function history() {
       style={[styles.container, {
         paddingTop: headerHeight
       }]}
-      scrollEnabled={false}
       data={transactions}
       ListHeaderComponent={HeaderComponent}
       renderItem={TransactionItem}
