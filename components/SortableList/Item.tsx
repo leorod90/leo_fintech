@@ -25,9 +25,10 @@ interface ItemProps {
   onDragEnd: (diffs: Positions) => void;
   scrollView: AnimatedRef<Animated.ScrollView>;
   scrollY: SharedValue<number>;
+  offset: number
 }
 
-const Item = ({ children, positions, id, onDragEnd, scrollView, scrollY, editing }: ItemProps) => {
+const Item = ({ children, positions, id, onDragEnd, scrollView, scrollY, editing, offset }: ItemProps) => {
   const inset = useSafeAreaInsets();
   const containerHeight = Dimensions.get('window').height - inset.top - inset.bottom;
   const contentHeight = (Object.keys(positions.value).length / COL) * SIZE;
@@ -35,7 +36,7 @@ const Item = ({ children, positions, id, onDragEnd, scrollView, scrollY, editing
 
   const position = getPosition(positions.value[id]!);
   const translateX = useSharedValue(position.x);
-  const translateY = useSharedValue(position.y);
+  const translateY = useSharedValue(position.y + (offset * 2));
 
   useAnimatedReaction(
     () => positions.value[id]!,
@@ -128,7 +129,7 @@ const Item = ({ children, positions, id, onDragEnd, scrollView, scrollY, editing
       width: SIZE,
       height: SIZE,
       zIndex,
-      transform: [{ translateX: translateX.value }, { translateY: translateY.value }, { scale }],
+      transform: [{ translateX: translateX.value }, { translateY: translateY.value + (offset * 2) }, { scale }],
     };
   });
   return (

@@ -24,8 +24,9 @@ const WidgetList = () => {
   return (
     <View
       style={{
-        paddingHorizontal: MARGIN,
-        marginBottom: 80,
+        // paddingHorizontal: MARGIN,
+        // marginBottom: 80,
+        // paddingVertical: 40,
       }}>
       <SortableList
         editing={true}

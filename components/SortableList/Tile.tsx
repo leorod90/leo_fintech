@@ -36,7 +36,7 @@ const Tile = ({ id }: TileProps) => {
           Spent this month
         </Text>
         <Text style={{ color: Colors.dark, fontWeight: 'bold', fontSize: 26, paddingTop: 10 }}>
-          1024€
+          $1024
         </Text>
       </View>
     );
@@ -81,17 +81,35 @@ const Tile = ({ id }: TileProps) => {
 
           {transactions.length > 0 && (
             <>
-              <Text
-                style={{
-                  color: Colors.dark,
-                  fontWeight: 'bold',
-                  fontSize: 18,
-                  paddingVertical: 10,
-                }}>
-                {transactions[0].amount}€
-              </Text>
-              <Text style={{ color: Colors.gray, fontWeight: 'bold', fontSize: 16 }}>
-                {transactions[0].title}
+              <View style={{
+                flexDirection: 'row',
+                alignItems: 'flex-start'
+              }}>
+                <Text
+                  style={{
+                    color: Colors.gray,
+                    fontSize: 14,
+                    paddingVertical: 10,
+                  }}>
+                  $
+                </Text>
+                <Text
+                  style={{
+                    color: transactions[0].amount > 0 ? 'green' : 'red',
+                    fontWeight: 'bold',
+                    fontSize: 18,
+                    paddingVertical: 10,
+                  }}>
+                  {transactions[0].amount}
+                </Text>
+              </View>
+              <Text style={{
+                color: Colors.gray,
+                fontWeight: 'bold',
+                fontSize: 16
+              }}>
+                lorem ipsum
+                {/* {transactions[0].title} */}
               </Text>
             </>
           )}

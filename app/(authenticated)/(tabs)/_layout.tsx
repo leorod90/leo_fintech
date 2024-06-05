@@ -46,18 +46,18 @@ export default function _layout() {
           <FontAwesome name='line-chart' size={size} color={color} />
         )
       }} />
-      <Tabs.Screen name='transfers' options={{
-        title: 'Transfers',
-        tabBarIcon: ({ size, color }) => (
-          <FontAwesome name='exchange' size={size} color={color} />
-        )
-      }} />
       <Tabs.Screen name='crypto_stack' options={{
         title: 'Crypto',
         tabBarIcon: ({ size, color }) => (
           <FontAwesome name='bitcoin' size={size} color={color} />
         ),
         headerShown: false
+      }} />
+      <Tabs.Screen name='history' options={{
+        title: 'History',
+        tabBarIcon: ({ size, color }) => (
+          <FontAwesome name='history' size={size} color={color} />
+        )
       }} />
       <Tabs.Screen name='lifestyle' options={{
         title: 'Lifestyle',

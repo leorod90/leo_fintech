@@ -1,5 +1,24 @@
-import zustand, { create } from "zustand";
-import { persist, createJSONStorage } from 'zustand/middleware'
+import { create } from 'zustand';
+import { persist, createJSONStorage } from 'zustand/middleware';
+import { MMKV } from 'react-native-mmkv';
+import { StateStorage } from 'zustand/middleware'
+
+const storage = new MMKV({
+  id: 'balance-storage'
+})
+
+export const zustandStorage: StateStorage = {
+  setItem: (name, value) => {
+    return storage.set(name, value)
+  },
+  getItem: (name) => {
+    const value = storage.getString(name)
+    return value ?? null
+  },
+  removeItem: (name) => {
+    return storage.delete(name)
+  },
+}
 
 export interface Transaction {
   id: string;
@@ -29,7 +48,7 @@ export const useBalanceStore = create(
     }),
     {
       name: 'balance',
-      storage: createJSONStorage(() => sessionStorage),
+      storage: createJSONStorage(() => zustandStorage),
     },
   )
 )

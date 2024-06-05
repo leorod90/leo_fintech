@@ -8,6 +8,7 @@ import Animated, {
 import Item from './Item';
 import { COL, Positions, SIZE } from './Config';
 
+const OFFSET = 10
 interface ListProps {
   children: ReactElement<{ id: string }>[];
   editing: boolean;
@@ -18,7 +19,10 @@ const List = ({ children, editing, onDragEnd }: ListProps) => {
   const scrollY = useSharedValue(0);
   const scrollView = useAnimatedRef<Animated.ScrollView>();
   const positions = useSharedValue<Positions>(
-    Object.assign({}, ...children.map((child, index) => ({ [child.props.id]: index })))
+    Object.assign({}, ...children.map(
+      (child, index) => ({ [child.props.id]: index }
+
+      )))
   );
   const onScroll = useAnimatedScrollHandler({
     onScroll: ({ contentOffset: { y } }) => {
@@ -31,7 +35,7 @@ const List = ({ children, editing, onDragEnd }: ListProps) => {
       onScroll={onScroll}
       ref={scrollView}
       contentContainerStyle={{
-        height: Math.ceil(children.length / COL) * SIZE,
+        height: Math.ceil(children.length / COL) * SIZE + OFFSET,
       }}
       showsVerticalScrollIndicator={false}
       bounces={false}
@@ -45,7 +49,9 @@ const List = ({ children, editing, onDragEnd }: ListProps) => {
             editing={editing}
             onDragEnd={onDragEnd}
             scrollView={scrollView}
-            scrollY={scrollY}>
+            scrollY={scrollY}
+            offset={OFFSET}
+          >
             {child}
           </Item>
         );

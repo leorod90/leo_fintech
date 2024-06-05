@@ -1,22 +1,16 @@
-import { View, StyleSheet, ScrollView, Text, FlatList } from 'react-native'
-import React, { useId } from 'react'
+import { View, StyleSheet, ScrollView, Text } from 'react-native'
+import React from 'react'
 import { defaultStyles, myStyles } from '@/constants/Styles';
 import RoundBtn from '@/components/RoundBtn';
 import DropDown from '@/components/DropDown';
 import { useBalanceStore } from '@/store/balanceStore';
-import TransactionItem from '@/components/TransactionItem';
 import WidgetList from '@/components/SortableList/WidgetList';
 import { useHeaderHeight } from '@react-navigation/elements';
 
-const HeaderComponent = () => (
-  <View style={styles.headerContain}>
-    <Text style={myStyles.header3}>Transactions</Text>
-  </View>
-)
-
 export default function crypto() {
   const headerHeight = useHeaderHeight();
-  const { balance, runTransactions, transactions, clearTransaction } = useBalanceStore();
+  const { balance, runTransactions, clearTransaction } = useBalanceStore();
+  
   const addMoneyHandler = () => {
     runTransactions({
       id: Math.random().toString(36).substring(2, 11),
@@ -41,22 +35,12 @@ export default function crypto() {
         <RoundBtn title='Details' icon='list' onPress={() => { }} />
         <DropDown />
       </View>
-      <FlatList
-        scrollEnabled={false}
-        data={transactions}
-        ListHeaderComponent={HeaderComponent}
-        renderItem={TransactionItem}
-        keyExtractor={item => item.id}
-      />
       <WidgetList />
     </ScrollView>
   )
 }
 
 const styles = StyleSheet.create({
-  headerContain: {
-    marginVertical: 20
-  },
   account: {
     flexDirection: 'row',
     justifyContent: 'center',
