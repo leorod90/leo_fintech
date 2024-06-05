@@ -15,6 +15,10 @@
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB045C9BA3F341FD9083BB61 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B40E17503E4A0B80C46D60 /* noop-file.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		BA16982B967B45E59ADC7FF2 /* default-Icon-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A31D5E61EC8B4C6894BF31CC /* default-Icon-60x60@2x.png */; };
+		D6D478D4B7CB4EF3A094714B /* default-Icon-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52DADB323F5B467B8B4767CC /* default-Icon-60x60@3x.png */; };
+		92D5B31C26D34032AEA2BC8A /* dark-Icon-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 774B7537EBED423293F7B6B3 /* dark-Icon-60x60@2x.png */; };
+		04E8A2F01DEE4B3A99F2A837 /* dark-Icon-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89CE707DFCDD4B96AA501E05 /* dark-Icon-60x60@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-leofintech/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		A31D5E61EC8B4C6894BF31CC /* default-Icon-60x60@2x.png */ = {isa = PBXFileReference; name = "default-Icon-60x60@2x.png"; path = "leofintech/DynamicAppIcons/default-Icon-60x60@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		52DADB323F5B467B8B4767CC /* default-Icon-60x60@3x.png */ = {isa = PBXFileReference; name = "default-Icon-60x60@3x.png"; path = "leofintech/DynamicAppIcons/default-Icon-60x60@3x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		774B7537EBED423293F7B6B3 /* dark-Icon-60x60@2x.png */ = {isa = PBXFileReference; name = "dark-Icon-60x60@2x.png"; path = "leofintech/DynamicAppIcons/dark-Icon-60x60@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		89CE707DFCDD4B96AA501E05 /* dark-Icon-60x60@3x.png */ = {isa = PBXFileReference; name = "dark-Icon-60x60@3x.png"; path = "leofintech/DynamicAppIcons/dark-Icon-60x60@3x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
 				95B40E17503E4A0B80C46D60 /* noop-file.swift */,
 				8F4620259CAE4CF39676AF8F /* leofintech-Bridging-Header.h */,
+				81C03C0CD4F04E1B9A00886B /* DynamicAppIcons */,
 			);
 			name = leofintech;
 			sourceTree = "<group>";
@@ -136,6 +145,18 @@
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
+		81C03C0CD4F04E1B9A00886B /* DynamicAppIcons */ = {
+			isa = "PBXGroup";
+			children = (
+				A31D5E61EC8B4C6894BF31CC /* default-Icon-60x60@2x.png */,
+				52DADB323F5B467B8B4767CC /* default-Icon-60x60@3x.png */,
+				774B7537EBED423293F7B6B3 /* dark-Icon-60x60@2x.png */,
+				89CE707DFCDD4B96AA501E05 /* dark-Icon-60x60@3x.png */,
+			);
+			name = DynamicAppIcons;
+			sourceTree = "<group>";
+			path = "";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,6 +221,10 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+				BA16982B967B45E59ADC7FF2 /* default-Icon-60x60@2x.png in Resources */,
+				D6D478D4B7CB4EF3A094714B /* default-Icon-60x60@3x.png in Resources */,
+				92D5B31C26D34032AEA2BC8A /* dark-Icon-60x60@2x.png in Resources */,
+				04E8A2F01DEE4B3A99F2A837 /* dark-Icon-60x60@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +561,9 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
 	};
 	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
 }

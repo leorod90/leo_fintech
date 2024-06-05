@@ -32,5 +32,17 @@
       </intent-filter>
     </activity>
     <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" android:exported="false"/>
+    <activity-alias android:name="com.leorod18.leo_fintech.MainActivitydefault" android:enabled="false" android:exported="true" android:icon="@mipmap/default" android:targetActivity=".MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity-alias>
+    <activity-alias android:name="com.leorod18.leo_fintech.MainActivitydark" android:enabled="false" android:exported="true" android:icon="@mipmap/dark" android:targetActivity=".MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity-alias>
   </application>
 </manifest>
