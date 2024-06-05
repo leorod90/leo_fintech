@@ -5,7 +5,7 @@ const storage = new MMKV({
   id: 'balance-storage'
 })
 
-const zustandStorage: StateStorage = {
+export const zustandStorage: StateStorage = {
   setItem: (name, value) => {
     return storage.set(name, value)
   },

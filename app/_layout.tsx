@@ -89,6 +89,16 @@ const InitialLayout = () => {
       }} />
       <Stack.Screen name="(authenticated)/(tabs)" options={{ headerShown: false }} />
       <Stack.Screen name="(authenticated)/(modals)/locked" options={{ headerShown: false, animation: 'none' }} />
+      <Stack.Screen name="(authenticated)/(modals)/account"
+        options={{
+          // headerShown: false,
+          presentation: 'transparentModal',
+          animation: 'fade_from_bottom',
+          title: '',
+          headerTransparent: true,
+          headerLeft: () => <CustomBackBtn router={router} icon='close-outline' color='white' />
+        }}
+      />
     </Stack>
   );
 }

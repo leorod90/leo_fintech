@@ -4,13 +4,15 @@ import Colors from '@/constants/Colors'
 import { Ionicons } from '@expo/vector-icons'
 
 interface Props {
-  router: any
+  router: any;
+  icon?: string;
+  color?: string;
 }
 
-export default function CustomBackBtn({ router }: Props) {
+export default function CustomBackBtn({ router, icon = "arrow-back", color = Colors.dark }: Props) {
   return (
     <TouchableOpacity onPress={() => router.back()}>
-      <Ionicons name="arrow-back" size={28} color={Colors.dark} />
+      <Ionicons name={icon} size={28} color={color} />
     </TouchableOpacity >
   )
 }
