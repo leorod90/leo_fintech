@@ -59,8 +59,8 @@ export default function _layout() {
           <FontAwesome name='history' size={size} color={color} />
         )
       }} />
-      <Tabs.Screen name='lifestyle' options={{
-        title: 'Lifestyle',
+      <Tabs.Screen name='settings' options={{
+        title: 'Settings',
         tabBarIcon: ({ size, color }) => (
           <FontAwesome name='th' size={size} color={color} />
         )

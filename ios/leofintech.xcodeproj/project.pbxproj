@@ -10,37 +10,37 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		29BA3CB921EC44F09A0DAC4D /* default-Icon-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C43D58762577415FA59DCDEF /* default-Icon-60x60@2x.png */; };
+		39F6DDBE50C84111992D24BE /* dark-Icon-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A283B33A4F94746B8DD5835 /* dark-Icon-60x60@3x.png */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		41A57D17AA094DA48F76817D /* default-Icon-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E857A2F31C42C6B95A483A /* default-Icon-60x60@3x.png */; };
 		96905EF65AED1B983A6B3ABC /* libPods-leofintech.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-leofintech.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
-		BB045C9BA3F341FD9083BB61 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B40E17503E4A0B80C46D60 /* noop-file.swift */; };
+		B494FBB15E4143388DFAC6E4 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D25D258D04A3186E2F223 /* noop-file.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		BA16982B967B45E59ADC7FF2 /* default-Icon-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A31D5E61EC8B4C6894BF31CC /* default-Icon-60x60@2x.png */; };
-		D6D478D4B7CB4EF3A094714B /* default-Icon-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52DADB323F5B467B8B4767CC /* default-Icon-60x60@3x.png */; };
-		92D5B31C26D34032AEA2BC8A /* dark-Icon-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 774B7537EBED423293F7B6B3 /* dark-Icon-60x60@2x.png */; };
-		04E8A2F01DEE4B3A99F2A837 /* dark-Icon-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89CE707DFCDD4B96AA501E05 /* dark-Icon-60x60@3x.png */; };
+		CF07658E7B1140859E606A4D /* dark-Icon-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5F9A50A09D42A88CF930E0 /* dark-Icon-60x60@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		101F9452C8CA41709C0810CD /* leofintech-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "leofintech-Bridging-Header.h"; path = "leofintech/leofintech-Bridging-Header.h"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* leofintech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leofintech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = leofintech/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = leofintech/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = leofintech/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = leofintech/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = leofintech/main.m; sourceTree = "<group>"; };
+		3E5F9A50A09D42A88CF930E0 /* dark-Icon-60x60@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "dark-Icon-60x60@2x.png"; path = "leofintech/DynamicAppIcons/dark-Icon-60x60@2x.png"; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-leofintech.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leofintech.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A283B33A4F94746B8DD5835 /* dark-Icon-60x60@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "dark-Icon-60x60@3x.png"; path = "leofintech/DynamicAppIcons/dark-Icon-60x60@3x.png"; sourceTree = "<group>"; };
 		6C2E3173556A471DD304B334 /* Pods-leofintech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leofintech.debug.xcconfig"; path = "Target Support Files/Pods-leofintech/Pods-leofintech.debug.xcconfig"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-leofintech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leofintech.release.xcconfig"; path = "Target Support Files/Pods-leofintech/Pods-leofintech.release.xcconfig"; sourceTree = "<group>"; };
-		8F4620259CAE4CF39676AF8F /* leofintech-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "leofintech-Bridging-Header.h"; path = "leofintech/leofintech-Bridging-Header.h"; sourceTree = "<group>"; };
-		95B40E17503E4A0B80C46D60 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "leofintech/noop-file.swift"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = leofintech/SplashScreen.storyboard; sourceTree = "<group>"; };
+		B7E857A2F31C42C6B95A483A /* default-Icon-60x60@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "default-Icon-60x60@3x.png"; path = "leofintech/DynamicAppIcons/default-Icon-60x60@3x.png"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		C43D58762577415FA59DCDEF /* default-Icon-60x60@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "default-Icon-60x60@2x.png"; path = "leofintech/DynamicAppIcons/default-Icon-60x60@2x.png"; sourceTree = "<group>"; };
+		E78D25D258D04A3186E2F223 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "leofintech/noop-file.swift"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-leofintech/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		A31D5E61EC8B4C6894BF31CC /* default-Icon-60x60@2x.png */ = {isa = PBXFileReference; name = "default-Icon-60x60@2x.png"; path = "leofintech/DynamicAppIcons/default-Icon-60x60@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		52DADB323F5B467B8B4767CC /* default-Icon-60x60@3x.png */ = {isa = PBXFileReference; name = "default-Icon-60x60@3x.png"; path = "leofintech/DynamicAppIcons/default-Icon-60x60@3x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		774B7537EBED423293F7B6B3 /* dark-Icon-60x60@2x.png */ = {isa = PBXFileReference; name = "dark-Icon-60x60@2x.png"; path = "leofintech/DynamicAppIcons/dark-Icon-60x60@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		89CE707DFCDD4B96AA501E05 /* dark-Icon-60x60@3x.png */ = {isa = PBXFileReference; name = "dark-Icon-60x60@3x.png"; path = "leofintech/DynamicAppIcons/dark-Icon-60x60@3x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +65,9 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				95B40E17503E4A0B80C46D60 /* noop-file.swift */,
-				8F4620259CAE4CF39676AF8F /* leofintech-Bridging-Header.h */,
-				81C03C0CD4F04E1B9A00886B /* DynamicAppIcons */,
+				E78D25D258D04A3186E2F223 /* noop-file.swift */,
+				101F9452C8CA41709C0810CD /* leofintech-Bridging-Header.h */,
+				BCB8B86DA926477FA184B081 /* DynamicAppIcons */,
 			);
 			name = leofintech;
 			sourceTree = "<group>";
@@ -128,6 +128,18 @@
 			path = leofintech/Supporting;
 			sourceTree = "<group>";
 		};
+		BCB8B86DA926477FA184B081 /* DynamicAppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				C43D58762577415FA59DCDEF /* default-Icon-60x60@2x.png */,
+				B7E857A2F31C42C6B95A483A /* default-Icon-60x60@3x.png */,
+				3E5F9A50A09D42A88CF930E0 /* dark-Icon-60x60@2x.png */,
+				5A283B33A4F94746B8DD5835 /* dark-Icon-60x60@3x.png */,
+			);
+			name = DynamicAppIcons;
+			path = "";
+			sourceTree = "<group>";
+		};
 		D65327D7A22EEC0BE12398D9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,18 +157,6 @@
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
-		81C03C0CD4F04E1B9A00886B /* DynamicAppIcons */ = {
-			isa = "PBXGroup";
-			children = (
-				A31D5E61EC8B4C6894BF31CC /* default-Icon-60x60@2x.png */,
-				52DADB323F5B467B8B4767CC /* default-Icon-60x60@3x.png */,
-				774B7537EBED423293F7B6B3 /* dark-Icon-60x60@2x.png */,
-				89CE707DFCDD4B96AA501E05 /* dark-Icon-60x60@3x.png */,
-			);
-			name = DynamicAppIcons;
-			sourceTree = "<group>";
-			path = "";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,13 +165,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "leofintech" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				FB7F9D3B3042282B37905864 /* [Expo] Configure project */,
+				F331D84EEEFD9D2086BAD9FC /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				6A1AC2029650894F060444E5 /* [CP] Embed Pods Frameworks */,
+				989EC961DF3EDEE93F5AA102 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,10 +221,10 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				BA16982B967B45E59ADC7FF2 /* default-Icon-60x60@2x.png in Resources */,
-				D6D478D4B7CB4EF3A094714B /* default-Icon-60x60@3x.png in Resources */,
-				92D5B31C26D34032AEA2BC8A /* dark-Icon-60x60@2x.png in Resources */,
-				04E8A2F01DEE4B3A99F2A837 /* dark-Icon-60x60@3x.png in Resources */,
+				29BA3CB921EC44F09A0DAC4D /* default-Icon-60x60@2x.png in Resources */,
+				41A57D17AA094DA48F76817D /* default-Icon-60x60@3x.png in Resources */,
+				CF07658E7B1140859E606A4D /* dark-Icon-60x60@2x.png in Resources */,
+				39F6DDBE50C84111992D24BE /* dark-Icon-60x60@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,24 +268,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6A1AC2029650894F060444E5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-leofintech/Pods-leofintech-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-leofintech/Pods-leofintech-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -318,7 +300,25 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-leofintech/Pods-leofintech-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FB7F9D3B3042282B37905864 /* [Expo] Configure project */ = {
+		989EC961DF3EDEE93F5AA102 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-leofintech/Pods-leofintech-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-leofintech/Pods-leofintech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F331D84EEEFD9D2086BAD9FC /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -347,7 +347,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
-				BB045C9BA3F341FD9083BB61 /* noop-file.swift in Sources */,
+				B494FBB15E4143388DFAC6E4 /* noop-file.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +378,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leorod18.leofintech;
-				PRODUCT_NAME = "leofintech";
+				PRODUCT_NAME = leofintech;
 				SWIFT_OBJC_BRIDGING_HEADER = "leofintech/leofintech-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -406,7 +406,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leorod18.leofintech;
-				PRODUCT_NAME = "leofintech";
+				PRODUCT_NAME = leofintech;
 				SWIFT_OBJC_BRIDGING_HEADER = "leofintech/leofintech-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -561,9 +561,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin PBXVariantGroup section */
-/* End PBXVariantGroup section */
 	};
 	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
 }
