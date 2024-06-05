@@ -22,7 +22,7 @@
     "expo-av": "~14.0.5",
     "expo-blur": "~13.0.2",
     "expo-dev-client": "~4.0.15",
-    "expo-dynamic-app-icon": "^1.2.0",
+    "expo-dynamic-app-icon": "git+https://github.com/simonsturge/expo-dynamic-app-icon#acfd73827573e99a5e1bfbe47cf2fb1656e9ccf0",
     "expo-font": "~12.0.6",
     "expo-haptics": "~13.0.1",
     "expo-image": "~1.12.9",

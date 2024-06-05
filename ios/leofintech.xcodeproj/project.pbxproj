@@ -7,40 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AAAF8F33AD1497BAFE4681B /* default_icon-Icon-$60x60@3x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BDDF98B7660D4DB8ABCB000D /* default_icon-Icon-$60x60@3x~ipad.png */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		29BA3CB921EC44F09A0DAC4D /* default-Icon-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C43D58762577415FA59DCDEF /* default-Icon-60x60@2x.png */; };
-		39F6DDBE50C84111992D24BE /* dark-Icon-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A283B33A4F94746B8DD5835 /* dark-Icon-60x60@3x.png */; };
+		1CD1C68585E04EACB5A1A0E9 /* dark_icon-Icon-$60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE4E3D29EE264E77A7B6996C /* dark_icon-Icon-$60x60@3x.png */; };
+		2553E40C518049A7901026B2 /* dark_icon-Icon-$60x60@3x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C594EB77AA44928B031A661 /* dark_icon-Icon-$60x60@3x~ipad.png */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		41A57D17AA094DA48F76817D /* default-Icon-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E857A2F31C42C6B95A483A /* default-Icon-60x60@3x.png */; };
+		4B1DCFD0D82D4665ACB042FB /* default_icon-Icon-$60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C966560AEBC44868C3C8BD1 /* default_icon-Icon-$60x60@2x.png */; };
 		96905EF65AED1B983A6B3ABC /* libPods-leofintech.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-leofintech.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
-		B494FBB15E4143388DFAC6E4 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D25D258D04A3186E2F223 /* noop-file.swift */; };
+		B79BF6EBD083489FA2ED2E0F /* default_icon-Icon-$60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 743D2AD0E4864EA68ACD9C5C /* default_icon-Icon-$60x60@3x.png */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		CF07658E7B1140859E606A4D /* dark-Icon-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5F9A50A09D42A88CF930E0 /* dark-Icon-60x60@2x.png */; };
+		DDE7BBA4F2C54094B4E33308 /* dark_icon-Icon-$60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F149F544C53B4D2C8398AC9F /* dark_icon-Icon-$60x60@2x.png */; };
+		DFDE274DADA141F790AE0887 /* default_icon-Icon-$60x60@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7FC85D428441BBA3D52A2D /* default_icon-Icon-$60x60@2x~ipad.png */; };
+		F68DA32928F943ED8E4AC7BF /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7ECDEBC409475B9D39CA7B /* noop-file.swift */; };
+		F8A8F8FFB6AA467DA7D575DB /* dark_icon-Icon-$60x60@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E074C4A30F4346B46187BA /* dark_icon-Icon-$60x60@2x~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		101F9452C8CA41709C0810CD /* leofintech-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "leofintech-Bridging-Header.h"; path = "leofintech/leofintech-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B7ECDEBC409475B9D39CA7B /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "leofintech/noop-file.swift"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* leofintech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leofintech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = leofintech/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = leofintech/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = leofintech/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = leofintech/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = leofintech/main.m; sourceTree = "<group>"; };
-		3E5F9A50A09D42A88CF930E0 /* dark-Icon-60x60@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "dark-Icon-60x60@2x.png"; path = "leofintech/DynamicAppIcons/dark-Icon-60x60@2x.png"; sourceTree = "<group>"; };
+		3A7FC85D428441BBA3D52A2D /* default_icon-Icon-$60x60@2x~ipad.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "default_icon-Icon-$60x60@2x~ipad.png"; path = "leofintech/DynamicAppIcons/default_icon-Icon-$60x60@2x~ipad.png"; sourceTree = "<group>"; };
+		49E074C4A30F4346B46187BA /* dark_icon-Icon-$60x60@2x~ipad.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "dark_icon-Icon-$60x60@2x~ipad.png"; path = "leofintech/DynamicAppIcons/dark_icon-Icon-$60x60@2x~ipad.png"; sourceTree = "<group>"; };
+		4C966560AEBC44868C3C8BD1 /* default_icon-Icon-$60x60@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "default_icon-Icon-$60x60@2x.png"; path = "leofintech/DynamicAppIcons/default_icon-Icon-$60x60@2x.png"; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-leofintech.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leofintech.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A283B33A4F94746B8DD5835 /* dark-Icon-60x60@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "dark-Icon-60x60@3x.png"; path = "leofintech/DynamicAppIcons/dark-Icon-60x60@3x.png"; sourceTree = "<group>"; };
+		6245D1E95F094112A4EA1BBE /* leofintech-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "leofintech-Bridging-Header.h"; path = "leofintech/leofintech-Bridging-Header.h"; sourceTree = "<group>"; };
 		6C2E3173556A471DD304B334 /* Pods-leofintech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leofintech.debug.xcconfig"; path = "Target Support Files/Pods-leofintech/Pods-leofintech.debug.xcconfig"; sourceTree = "<group>"; };
+		6C594EB77AA44928B031A661 /* dark_icon-Icon-$60x60@3x~ipad.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "dark_icon-Icon-$60x60@3x~ipad.png"; path = "leofintech/DynamicAppIcons/dark_icon-Icon-$60x60@3x~ipad.png"; sourceTree = "<group>"; };
+		743D2AD0E4864EA68ACD9C5C /* default_icon-Icon-$60x60@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "default_icon-Icon-$60x60@3x.png"; path = "leofintech/DynamicAppIcons/default_icon-Icon-$60x60@3x.png"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-leofintech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leofintech.release.xcconfig"; path = "Target Support Files/Pods-leofintech/Pods-leofintech.release.xcconfig"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = leofintech/SplashScreen.storyboard; sourceTree = "<group>"; };
-		B7E857A2F31C42C6B95A483A /* default-Icon-60x60@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "default-Icon-60x60@3x.png"; path = "leofintech/DynamicAppIcons/default-Icon-60x60@3x.png"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		C43D58762577415FA59DCDEF /* default-Icon-60x60@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "default-Icon-60x60@2x.png"; path = "leofintech/DynamicAppIcons/default-Icon-60x60@2x.png"; sourceTree = "<group>"; };
-		E78D25D258D04A3186E2F223 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "leofintech/noop-file.swift"; sourceTree = "<group>"; };
+		BDDF98B7660D4DB8ABCB000D /* default_icon-Icon-$60x60@3x~ipad.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "default_icon-Icon-$60x60@3x~ipad.png"; path = "leofintech/DynamicAppIcons/default_icon-Icon-$60x60@3x~ipad.png"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F149F544C53B4D2C8398AC9F /* dark_icon-Icon-$60x60@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "dark_icon-Icon-$60x60@2x.png"; path = "leofintech/DynamicAppIcons/dark_icon-Icon-$60x60@2x.png"; sourceTree = "<group>"; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-leofintech/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		FE4E3D29EE264E77A7B6996C /* dark_icon-Icon-$60x60@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "dark_icon-Icon-$60x60@3x.png"; path = "leofintech/DynamicAppIcons/dark_icon-Icon-$60x60@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +73,9 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				E78D25D258D04A3186E2F223 /* noop-file.swift */,
-				101F9452C8CA41709C0810CD /* leofintech-Bridging-Header.h */,
-				BCB8B86DA926477FA184B081 /* DynamicAppIcons */,
+				0B7ECDEBC409475B9D39CA7B /* noop-file.swift */,
+				6245D1E95F094112A4EA1BBE /* leofintech-Bridging-Header.h */,
+				9138C032A19C476CA9182FD4 /* DynamicAppIcons */,
 			);
 			name = leofintech;
 			sourceTree = "<group>";
@@ -111,6 +119,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9138C032A19C476CA9182FD4 /* DynamicAppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				4C966560AEBC44868C3C8BD1 /* default_icon-Icon-$60x60@2x.png */,
+				743D2AD0E4864EA68ACD9C5C /* default_icon-Icon-$60x60@3x.png */,
+				3A7FC85D428441BBA3D52A2D /* default_icon-Icon-$60x60@2x~ipad.png */,
+				BDDF98B7660D4DB8ABCB000D /* default_icon-Icon-$60x60@3x~ipad.png */,
+				F149F544C53B4D2C8398AC9F /* dark_icon-Icon-$60x60@2x.png */,
+				FE4E3D29EE264E77A7B6996C /* dark_icon-Icon-$60x60@3x.png */,
+				49E074C4A30F4346B46187BA /* dark_icon-Icon-$60x60@2x~ipad.png */,
+				6C594EB77AA44928B031A661 /* dark_icon-Icon-$60x60@3x~ipad.png */,
+			);
+			name = DynamicAppIcons;
+			path = "";
+			sourceTree = "<group>";
+		};
 		92DBD88DE9BF7D494EA9DA96 /* leofintech */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,18 +150,6 @@
 			);
 			name = Supporting;
 			path = leofintech/Supporting;
-			sourceTree = "<group>";
-		};
-		BCB8B86DA926477FA184B081 /* DynamicAppIcons */ = {
-			isa = PBXGroup;
-			children = (
-				C43D58762577415FA59DCDEF /* default-Icon-60x60@2x.png */,
-				B7E857A2F31C42C6B95A483A /* default-Icon-60x60@3x.png */,
-				3E5F9A50A09D42A88CF930E0 /* dark-Icon-60x60@2x.png */,
-				5A283B33A4F94746B8DD5835 /* dark-Icon-60x60@3x.png */,
-			);
-			name = DynamicAppIcons;
-			path = "";
 			sourceTree = "<group>";
 		};
 		D65327D7A22EEC0BE12398D9 /* Pods */ = {
@@ -165,13 +177,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "leofintech" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				F331D84EEEFD9D2086BAD9FC /* [Expo] Configure project */,
+				4FD2B3016F9435B1F238324C /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				989EC961DF3EDEE93F5AA102 /* [CP] Embed Pods Frameworks */,
+				80E53BBBAF802E7DE40A4FB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,10 +233,14 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				29BA3CB921EC44F09A0DAC4D /* default-Icon-60x60@2x.png in Resources */,
-				41A57D17AA094DA48F76817D /* default-Icon-60x60@3x.png in Resources */,
-				CF07658E7B1140859E606A4D /* dark-Icon-60x60@2x.png in Resources */,
-				39F6DDBE50C84111992D24BE /* dark-Icon-60x60@3x.png in Resources */,
+				4B1DCFD0D82D4665ACB042FB /* default_icon-Icon-$60x60@2x.png in Resources */,
+				B79BF6EBD083489FA2ED2E0F /* default_icon-Icon-$60x60@3x.png in Resources */,
+				DFDE274DADA141F790AE0887 /* default_icon-Icon-$60x60@2x~ipad.png in Resources */,
+				0AAAF8F33AD1497BAFE4681B /* default_icon-Icon-$60x60@3x~ipad.png in Resources */,
+				DDE7BBA4F2C54094B4E33308 /* dark_icon-Icon-$60x60@2x.png in Resources */,
+				1CD1C68585E04EACB5A1A0E9 /* dark_icon-Icon-$60x60@3x.png in Resources */,
+				F8A8F8FFB6AA467DA7D575DB /* dark_icon-Icon-$60x60@2x~ipad.png in Resources */,
+				2553E40C518049A7901026B2 /* dark_icon-Icon-$60x60@3x~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +284,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4FD2B3016F9435B1F238324C /* [Expo] Configure project */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-leofintech/expo-configure-project.sh\"\n";
+		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,7 +335,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-leofintech/Pods-leofintech-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		989EC961DF3EDEE93F5AA102 /* [CP] Embed Pods Frameworks */ = {
+		80E53BBBAF802E7DE40A4FB7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,25 +353,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-leofintech/Pods-leofintech-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F331D84EEEFD9D2086BAD9FC /* [Expo] Configure project */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[Expo] Configure project";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-leofintech/expo-configure-project.sh\"\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -347,7 +363,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
-				B494FBB15E4143388DFAC6E4 /* noop-file.swift in Sources */,
+				F68DA32928F943ED8E4AC7BF /* noop-file.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

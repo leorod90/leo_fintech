@@ -32,16 +32,32 @@
       </intent-filter>
     </activity>
     <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" android:exported="false"/>
-    <activity-alias android:name="com.leorod18.leo_fintech.MainActivitydefault" android:enabled="false" android:exported="true" android:icon="@mipmap/default" android:targetActivity=".MainActivity">
+    <activity-alias android:name="com.leorod18.leo_fintech.MainActivitydefault_icon" android:enabled="false" android:exported="true" android:icon="@mipmap/default_icon" android:targetActivity=".MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
         <category android:name="android.intent.category.LAUNCHER"/>
       </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="myapp"/>
+        <data android:scheme="com.leorod18.leo_fintech"/>
+        <data android:scheme="exp+leofintech"/>
+      </intent-filter>
     </activity-alias>
-    <activity-alias android:name="com.leorod18.leo_fintech.MainActivitydark" android:enabled="false" android:exported="true" android:icon="@mipmap/dark" android:targetActivity=".MainActivity">
+    <activity-alias android:name="com.leorod18.leo_fintech.MainActivitydark_icon" android:enabled="false" android:exported="true" android:icon="@mipmap/dark_icon" android:targetActivity=".MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
         <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="myapp"/>
+        <data android:scheme="com.leorod18.leo_fintech"/>
+        <data android:scheme="exp+leofintech"/>
       </intent-filter>
     </activity-alias>
   </application>

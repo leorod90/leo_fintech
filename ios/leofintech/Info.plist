@@ -14,20 +14,20 @@
     <dict>
       <key>CFBundleAlternateIcons</key>
       <dict>
-        <key>default</key>
+        <key>default_icon</key>
         <dict>
           <key>CFBundleIconFiles</key>
           <array>
-            <string>default-Icon-60x60</string>
+            <string>default_icon-Icon-$60x60</string>
           </array>
           <key>UIPrerenderedIcon</key>
           <true/>
         </dict>
-        <key>dark</key>
+        <key>dark_icon</key>
         <dict>
           <key>CFBundleIconFiles</key>
           <array>
-            <string>dark-Icon-60x60</string>
+            <string>dark_icon-Icon-$60x60</string>
           </array>
           <key>UIPrerenderedIcon</key>
           <true/>
@@ -45,20 +45,20 @@
     <dict>
       <key>CFBundleAlternateIcons</key>
       <dict>
-        <key>default</key>
+        <key>default_icon</key>
         <dict>
           <key>CFBundleIconFiles</key>
           <array>
-            <string>default-Icon-60x60</string>
+            <string>default_icon-Icon-$60x60</string>
           </array>
           <key>UIPrerenderedIcon</key>
           <true/>
         </dict>
-        <key>dark</key>
+        <key>dark_icon</key>
         <dict>
           <key>CFBundleIconFiles</key>
           <array>
-            <string>dark-Icon-60x60</string>
+            <string>dark_icon-Icon-$60x60</string>
           </array>
           <key>UIPrerenderedIcon</key>
           <true/>

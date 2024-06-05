@@ -34,11 +34,11 @@
       [
         "expo-dynamic-app-icon",
         {
-          "default": {
+          "default_icon": {
             "image": "./assets/icons/default_app.png",
             "prerendered": true
           },
-          "dark": {
+          "dark_icon": {
             "image": "./assets/icons/dark_app.png",
             "prerendered": true
           }
