@@ -26,10 +26,10 @@ export default function CustomerHeader() {
           <TextInput style={styles.input} placeholder='Search' placeholderTextColor={Colors.gray} />
         </View>
         <TouchableOpacity style={styles.circle} onPress={() => { }}>
-          <Ionicons name='trending-up' color={Colors.dark} size={24} />
+          <Ionicons name='card' color={Colors.dark} size={24} />
         </TouchableOpacity>
         <TouchableOpacity style={styles.circle} onPress={() => { }}>
-          <Ionicons name='card' color={Colors.dark} size={24} />
+          <Ionicons name='notifications' color={Colors.dark} size={24} />
         </TouchableOpacity>
       </View>
     </BlurView>

@@ -21,12 +21,13 @@ export default function crypto() {
 
   return (
     <FlatList
-      style={{
-        paddingTop: headerHeight,
-        flex: 1,
-      }}
+      style={styles.container}
       // scrollEnabled={false}
-      contentContainerStyle={defaultStyles.defaultPadding}
+      showsVerticalScrollIndicator={false}
+      contentContainerStyle={[defaultStyles.horizontalPadding, {
+        paddingTop: headerHeight,
+        paddingBottom: 80,
+      }]}
       data={data}
       ListHeaderComponent={HeaderComponent}
       renderItem={CryptoComponent}
@@ -39,4 +40,7 @@ const styles = StyleSheet.create({
   headerContain: {
     marginVertical: 20
   },
+  container: {
+    flex: 1
+  }
 })

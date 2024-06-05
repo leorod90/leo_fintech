@@ -17,9 +17,11 @@ export default function history() {
 
   return (
     <FlatList
-      style={[styles.container, {
+      style={styles.container}
+      contentContainerStyle={{
         paddingTop: headerHeight
-      }]}
+      }
+      }
       data={transactions}
       ListHeaderComponent={HeaderComponent}
       renderItem={TransactionItem}
