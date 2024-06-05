@@ -3,7 +3,6 @@ import React from 'react'
 import { BlurView } from 'expo-blur'
 import { TextInput, TouchableOpacity } from 'react-native-gesture-handler'
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import RoundBtn from './RoundBtn';
 import Colors from '@/constants/Colors';
 import { Ionicons } from '@expo/vector-icons';
 import { defaultStyles } from '@/constants/Styles';

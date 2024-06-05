@@ -14,7 +14,7 @@ export default function _layout() {
       tabBarActiveTintColor: Colors.primary,
       tabBarShowLabel: false,
       tabBarBackground: () => <BlurView
-        intensity={100}
+        intensity={80}
         tint='extraLight'
         style={{
           flex: 1,
@@ -24,7 +24,7 @@ export default function _layout() {
       tabBarStyle: {
         backgroundColor: 'transparent',
         position: 'absolute',
-        bottom: 0,
+        // bottom: 0,
         left: 0,
         right: 0,
         elevation: 0,

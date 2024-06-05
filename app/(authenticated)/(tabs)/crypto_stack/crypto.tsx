@@ -22,7 +22,7 @@ export default function crypto() {
   return (
     <FlatList
       style={{
-        marginTop: headerHeight,
+        paddingTop: headerHeight,
         flex: 1,
       }}
       // scrollEnabled={false}

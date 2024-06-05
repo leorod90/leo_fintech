@@ -10,13 +10,15 @@ import { useHeaderHeight } from '@react-navigation/elements';
 export default function crypto() {
   const headerHeight = useHeaderHeight();
   const { balance, runTransactions, clearTransaction } = useBalanceStore();
-  
-  const addMoneyHandler = () => {
+
+  const moneyHandler = (type: string) => {
+    const title = `${type === 'add' ? "Added" : "Removed"} Money`
+
     runTransactions({
       id: Math.random().toString(36).substring(2, 11),
-      amount: Math.floor((Math.random() * 1000) * (Math.random() > 0.5 ? 1 : -1)),
+      amount: Math.floor((Math.random() * 1000) * (type === 'add' ? 1 : -1)),
       date: new Date(),
-      title: 'Added Money'
+      title
     })
   }
 
@@ -30,9 +32,10 @@ export default function crypto() {
         <Text style={[myStyles.heroTxt, styles.balance]}>{balance()}</Text>
       </View>
       <View style={styles.actionRow}>
-        <RoundBtn title='Add Money' icon='add' onPress={addMoneyHandler} />
-        <RoundBtn title='Exchange' icon='refresh' onPress={clearTransaction} />
-        <RoundBtn title='Details' icon='list' onPress={() => { }} />
+        <RoundBtn title='Add' icon='add' onPress={() => moneyHandler('add')} />
+        <RoundBtn title='Remove' icon='remove' onPress={() => moneyHandler('remove')} />
+        <RoundBtn title='Reset' icon='refresh' onPress={clearTransaction} />
+        {/* <RoundBtn title='Details' icon='list' onPress={() => { }} /> */}
         <DropDown />
       </View>
       <WidgetList />
